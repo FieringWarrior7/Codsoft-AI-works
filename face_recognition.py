@@ -10,7 +10,7 @@ cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 counter = 0
 face_match = False
 
-reference_img = cv2.imread(r"C:\\Users\\hello\\OneDrive\\Desktop\\Ashwanth\\personal main\\personal\\my personal\\my passoprt photo size = 53k.jpg")
+reference_img = cv2.imread(r"use your image path.jpg")
 
 
 def check_face(frame):
